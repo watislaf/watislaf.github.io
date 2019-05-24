@@ -327,7 +327,7 @@ function init() {
     chebu=1;
     coloorr=0;
     fZ=41;
-    kf=0.86; 
+    kf=0.84; 
     Objects = []; 
     myColor="yellow"
     isDown= false;
