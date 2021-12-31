@@ -172,13 +172,13 @@ function cll(srr)
 // Изменение третьего параметра 
 function get_Z(){
     switch(clearr.textContent){
-        case 'Без изменений ✔':
+        case 'No change ✔'':
             return fZ;
-        case '❓Случайный ❓':{
+        case '❓Random ❓':{
             fZ=Math.random()*((460-10)+10);
             return fZ+0.1;
             }
-        case '➕ Увеличение ➕':{
+        case '➕ Increase ➕':{
             if(check(10))   
                 fZ+=2;
             else
@@ -186,7 +186,7 @@ function get_Z(){
             fZ%=460; 
             return fZ;
             }
-        case '➖ Уменьшение➖':{
+        case '➖ Decrease➖':{
             if(!check(10))
                 fZ-=0.58;
             else
@@ -223,24 +223,24 @@ if(!check(5)){
 //выбор наполнения
 function che(){
          switch(clearr.textContent){
-            case 'Без изменений ✔':{     
+            case 'No change ✔':{     
                 clearr.style.color="red";
-                clearr.textContent='❓Случайный ❓';
+                clearr.textContent='❓Random ❓';
                 return;
                 }
-            case '❓Случайный ❓':{
+            case '❓Random ❓':{
                     clearr.style.color="darkorange"; 
-                    clearr.textContent='➕ Увеличение ➕';
+                    clearr.textContent='➕ Increase ➕';
                     return;
                  }
-            case '➕ Увеличение ➕':{
+            case '➕ Increase ➕':{
                     clearr.style.color="chartreuse";
-                    clearr.textContent='➖ Уменьшение➖';
+                    clearr.textContent='➖ Decrease➖';
                     return;
                  }
-            case '➖ Уменьшение➖':{
+            case '➖ Decrease➖':{
                     clearr.style.color=myColor;
-                    clearr.textContent='Без изменений ✔';
+                    clearr.textContent='No change ✔';
                     return;
                  }
         }
@@ -303,17 +303,17 @@ function click_on(){
 // Инициализация переменных
 function init() {
     words=[ 
-        '⏩ Быстрее ⏩','⏪ Медленнее⏪ ',
-        '🎨  Разноцвет 🎨','🌀 Одноцвет 🌀',
-        '🌞 Разворот 🌞','🌚 Разворот 🌚', 
-        '◼ Затрирать ◼','◻ Не Затирать ◻',
-        '⛎ Ограничь ⛎','〰 Обесконечь 〰',
-        '🍇 Больше кв. 🍇','🍎 Меньше кв. 🍎',
-        '🔒 Прицепить 🔒','🔓 Отцепить 🔓',
-        '🔉 Пульсацируй🔉','🚷 Не надо 🚷',
-        '🚦 Поменяй фон 🚦','💍 Спасибо 💍',
-        '🚼 Режим 🚼','🍸 Режим 🍸',
-        '💯 Гуще 💯','🔎 Мельче 🔎' 
+        '⏩ Faster ⏩','⏪ Slower⏪ ',
+        '🎨  Rainbow 🎨','🌀 OneColor 🌀',
+        '🌞 Reversal 🌞','🌚 Reversal 🌚', 
+        '◼ Wipe ◼','◻ no wipe ◻',
+        '⛎ Limit ⛎','〰 Endless 〰',
+        '🍇 Mr sqrs 🍇','🍎 Ls sqrs 🍎',
+        '🔒 Hook 🔒','🔓 Restrict 🔓',
+        '🔉 Pulse🔉','🚷 Dont 🚷',
+        '🚦 Change Background 🚦','💍 Thanks 💍',
+        '🚼 mode 🚼','🍸 mode 🍸',
+        '💯 Еhicker 💯','🔎 Smaller 🔎' 
     ]   
     del=70;
     re=181
