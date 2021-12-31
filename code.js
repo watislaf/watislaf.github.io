@@ -172,7 +172,7 @@ function cll(srr)
 // Изменение третьего параметра 
 function get_Z(){
     switch(clearr.textContent){
-        case 'No change ✔'':
+        case 'No change ✔':
             return fZ;
         case '❓Random ❓':{
             fZ=Math.random()*((460-10)+10);
@@ -476,7 +476,7 @@ function init() {
     dw=false;
     clearr= document.getElementById('IsZ')
     clearr.style.color=myColor; 
-    clearr.textContent='Без изменений ✔';
+    clearr.textContent='No change ✔';
     clearr.addEventListener("click",che);
     
     for(var i=0;i<Divesi.length;i++){
@@ -485,7 +485,7 @@ function init() {
         Divesi[i].addEventListener("click",click_on)
     }
     canvas.addEventListener("mousedown",function(){
-        if(clearr.textContent=='➖ Уменьшение➖')
+        if(clearr.textContent=='➖ Decrease➖')
             fZ=460;
         if(event.which==3)
             dw=true;
