@@ -311,7 +311,7 @@ function init() {
         '🍇 Mr sqrs 🍇','🍎 Ls sqrs 🍎',
         '🔒 Hook 🔒','🔓 Restrict 🔓',
         '🔉 Pulse🔉','🚷 Dont 🚷',
-        '🚦 Change Background 🚦','💍 Thanks 💍',
+        '🚦 Change Bg 🚦','💍 Thanks 💍',
         '🚼 mode 🚼','🍸 mode 🍸',
         '💯 Еhicker 💯','🔎 Smaller 🔎' 
     ]   
