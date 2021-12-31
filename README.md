@@ -1,20 +1,11 @@
-## Краткое описание
-
-Программа на  js, которая иммитирует трехмерную графику за счёт перспективы, там ещё есть 1000 настроек чтобы поглазеть можно было
-
-_____
-
-## Установка
-
-Скачать архив, запустить World.html
-
-А ещё проще, перейти по ссылке -> https://watislaf.github.io/World.html
+## How to 
+by link -> https://watislaf.github.io/World.html
 
 _______
 
 ## Пояснение
 
-Создание обьектов на правую клавишу, перемещение на левую. Так же есть опции, которые можно запускать нажимая по ним или на клавишах 1-9. 
+Creation on LeftMC, Move on RightMC.There are options that u can chagne by 1-9.
 
 ____
 
@@ -32,17 +23,17 @@ ____
 
 ____
 
-## Настройки
+## Settings 
 
-* Медленее/ Быстрее - ускоряет создание обьектов, скорость их перемещения
-* Меньше кв/ Больше кв - позволяет создавать больше квадратиков за один клик
-* Одноцвет/ Разноцвет - позволяет менять цвет при создании и при пульсации
-* Случайный/ Уменьшение/ Увеличение/ Без изменений - Режим размеров квадратов. Чем больше квадрат - тем он ближе к рисующему. Так же в режиме Уменьшение создание всегда начинается с большого квадрата и остонавливается на маленьком для удобства.
-* Поменяй Фон/ Спасибо - меняет цвет заднего плана
-* Пульсируй/ Не надо - квадраты с определённой вероятностью начинают пульсировать, меняя свой цвет
-* Затирать/ Не Затирать - задний фон перестаёт затираться, что позволяет старым обьектам быть всё ещё на поле
-* Разворот - инвертирует координаты, передние теперь сзади а задние спереди
-* Прицепить/ Ограничеть - присваивает координаты по небольшому модулю, то позволяет им собраться в сеточке
-* Ограничить/ Обесконечить - все блоки которые улетают сразу возвращабтся обратно с другой стороны
-* Режим - Пкм Если стоит Разворот то обьекты либо притягиваются либо отталкиваются от мыкши. Если стоит мельче, то обьекты отталкиваются все вместе от центра экрана относительно позиции мышки
-* Мельче - перерабатывает тени, делает создание обьектов более плотным.
+* Slower / Faster - speeds up the creation of objects, the speed of their movement
+* Less squares / More squares - allows you to create more squares in one click
+* Single color / Multi color - allows you to change the color when creating and when rippling
+* Random / Decrease / Increase / No change - Square size mode. The larger the square, the closer it is to the drawing. Also, in the Reduce mode, creation always starts with a large square and stops on a small one for convenience.
+* Change Background / Thanks - changes the background color
+* Pulse / Don't - squares with a certain probability begin to pulsate, changing their color
+* Wipe / Do Not Wipe - the background stops rubbing, which allows old objects to be still on the field
+* Reversal - inverts the coordinates, the front is now behind and the rear is in front
+* Hook / Restrict - assigns coordinates by a small module, then allows them to gather in a grid
+* Limit / Endless - all blocks that fly away immediately come back from the other side
+* Mode - Pkm If there is a U-turn, then the objects are either attracted or repelled from the mouse. If it is smaller, then the objects are all repelled from the center of the screen relative to the position of the mouse
+* Smaller - processes shadows, makes the creation of objects more dense.
