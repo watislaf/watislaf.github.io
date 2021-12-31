@@ -1,25 +1,7 @@
 ## How to 
-by link -> https://watislaf.github.io/World.html
-
-_______
-
-## Пояснение
-
-Creation on LeftMC, Move on RightMC.There are options that u can chagne by 1-9.
-
-____
-
-## Пример 
-
-Тут мы создали что-то наподобии кальмара
-![alt text](file_1.png)
-
-И повернули его на небольшой угол ( всё это стоит увидеть вживую )
-![alt text](file_2.png)
-
-Поигравшись с найтроками можно добиться необычных картин 
-![alt text](file_3.png)
-![alt text](file_4.png)
+go to link -> https://watislaf.github.io/World.html, and press f11
+And use your  LeftMC, RightMC to start to create. There are also more options on 1-9 buttons so u can go crazy wuth them.
+ 
 
 ____
 
