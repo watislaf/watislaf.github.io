@@ -2,7 +2,14 @@
 go to link -> https://watislaf.github.io/World.html, and press f11
 And use your  LeftMC, RightMC to start to create. There are also more options on 1-9 buttons so u can go crazy wuth them.
  
+<p align=center>
+  <img  src="https://github.com/watislaf/watislaf.github.io/blob/master/output1.gif" width="100%"> 
+  <img  src="https://github.com/watislaf/watislaf.github.io/blob/master/output2.gif" width="100%"> 
+  <img  src="https://github.com/watislaf/watislaf.github.io/blob/master/output3.gif" width="100%"> 
+  <img  src="https://github.com/watislaf/watislaf.github.io/blob/master/output4.gif" width="100%"> 
+  <img  src="https://github.com/watislaf/watislaf.github.io/blob/master/output5.gif" width="100%"> 
 
+</p>
 ____
 
 ## Settings 
