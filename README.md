@@ -1,5 +1,5 @@
 ## How to 
-go to link -> https://watislaf.github.io/World.html, and press f11
+go to link  https://watislaf.github.io/World.html, and press f11
 And use your  LeftMC, RightMC to start to create. There are also more options on 1-9 buttons so u can go crazy wuth them.
  
 <p align=center>
